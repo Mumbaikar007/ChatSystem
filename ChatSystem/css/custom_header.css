@@ -1,0 +1,110 @@
+
+/*CUSTOM NAV*/
+.navbar-custom {
+    background-color:#800000;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: white;
+    font-size: 13px;
+}
+
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    color: #800000;
+    background-color: #f4dcdc;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#800000;
+}
+/* for dropdowns only */
+.navbar-custom .navbar-nav .dropdown-menu  {
+  background-color: #f4dcdc;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  {
+  color: #800000;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  {
+    color:  white;
+    background: #800000;
+}
+.topbar{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+/*custom nav end*/
+
+    /* Pranav: Header edits*/
+    .navbar-brand {
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+
+
+    .custom-nav-active{
+    border-bottom-style: solid;
+    border-width:5px;
+    border-color:white;
+    padding-bottom:5px;
+
+}
+@media (min-width: 768px){
+    .navbar-nav-just {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+     .navbar-nav-cent {
+        /*margin: 0 auto;*/
+        display: table;
+        table-layout: auto;
+        float: none;
+        padding-right:20px;
+        padding-left: 20px;
+        background-color: darkslategrey;
+        
+        align-self:center; 
+    }
+    .navbar-nav-just>li {
+        display: table-cell;
+        float: none;
+        color: white;
+        text-align: center;
+    }
+       .navbar-nav-cent>li>a {
+      color: white;
+    }
+    .navbar-nav-cent>li>a:hover{
+    color:  white;
+    background: #800000;
+}
+}
+@media (max-width: 768px){
+    .topbar{
+        margin-left: -14px;
+        margin-right: -14px;
+    }
+}
